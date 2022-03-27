@@ -1,5 +1,5 @@
 {
-  "name": "web3js-quorum",
+  "name": "@fpt-blockchain/web3js-quorum",
   "version": "21.7.0-rc1",
   "description": "Web3 JS Quorum - JSON-RPC API",
   "main": "src/index.js",
