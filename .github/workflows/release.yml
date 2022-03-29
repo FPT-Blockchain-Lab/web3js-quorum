@@ -23,5 +23,5 @@ jobs:
           to: ${{ secrets.TELEGRAM_TO }}
           token: ${{ secrets.TELEGRAM_TOKEN }}
           message: |
-            **[${{ github.actor }}](https://github.com/${{ github.actor }})** vừa biu thành công **${{ github.repository }}** phiên bản **${{ github.event.release.tag_name }}**
+            ${{ github.repository }} phiên bản ${{ github.event.release.tag_name }} vừa được biu thành công 
             Kiểm tra tại https://www.npmjs.com/package/@fpt-blockchain/web3js-quorum
